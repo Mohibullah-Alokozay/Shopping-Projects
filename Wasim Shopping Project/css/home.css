@@ -1,0 +1,155 @@
+#header{
+    font-family: "Acme";
+}
+.title{
+    margin:0.4% 9%;
+}
+.title button{
+    border:none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+.title h1{
+    font-size: 2rem;
+    display: inline;
+    position: relative;
+    top: 10px;
+
+}
+.title img{
+    width:45px;
+}
+
+
+
+.src-bar{
+    background: rgba(255, 255 , 255, 0.4);
+    width: 50%;
+    height:100%;
+    border-radius: 7px;
+
+}
+.src-bar input{
+    width: 95%;
+    height:35px;
+    padding-left: 2%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-family: 'Times';
+    font-size: 14px;
+    color: #000;
+}
+.src-bar:hover{
+    background: #fff;
+}
+::placeholder{
+    color:#fff;
+}
+
+.src-bar button{
+    border: 0;
+    margin-right: 15px ;
+    background: transparent;
+
+    
+}
+
+/* Navbar section */
+
+.navbar a{
+    color:#fff;
+}
+
+.nav-item a{
+    color:#8a8a8a;
+    /* font-size: 1.3rem; */
+}
+.nav-item a:hover{
+    color:#fff;
+}
+.testimonial-image{
+    width: 100%;
+}
+.tools{
+    margin: 0% 0%;
+    padding: 4% 15%;
+}
+.tools img{
+    padding: 2% 0%;
+    width: 100%;
+}
+
+
+
+/* Card section */
+.product-heading{
+    font-family: "times new roman";
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px;
+    background-color:#fff;
+    border-radius: 20px;
+    transition: tranform .3s;
+}
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+.text1{
+    font-size: 13px;
+    color: #cbcbcb;
+}
+
+.info{
+    line-height: 12px;
+}
+.star{
+    color: #fbc02d;
+}
+.addCard{
+    background-color: coral;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* Footer section */
+
+.footer{
+    background: radial-gradient(#fff, #ffd6d6);
+    color: #000;
+    text-align: center;
+    font-family: "Acme";
+    padding: 2% 5%;
+
+}
+
+.footer p{
+    color: #8a8a8a;
+    font-size: 1rem;
+    margin: 2% 0;
+    text-align: center;
+}
+.footer ul{
+    list-style-type: none;
+    color: #8a8a8a;
+}
+.footer button{
+    margin:2%;
+    width: 220px;
+} 
+
+.footer-link h3{
+    font-size: 1.5rem;
+}
+.useful-link{
+    text-decoration: none;
+    color:#8a8a8a;
+}
+.useful-link:hover{
+    color:#000;
+}

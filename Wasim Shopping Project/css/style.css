@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* index.php & register.php pages style start */
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/New/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.login-email {
+    margin:auto 30%;
+    width: 90%;
+    max-width: 440px;
+    color: #fff;
+    padding: 50px 35px;
+    border: 1px solid rgb(255, 255, 255,0.3);
+    background-color: red;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0, 0, 0,0.1);
+}
+.login-text {
+    margin: 0;
+    text-align: center;
+    color: #111;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: monotype corsiva;
+    text-transform: uppercase;
+}
+.form-group input{
+    margin-top: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    color: #333;
+}
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 30px;
+    background-color:  #111;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main .login-email .form-group .btn:hover {
+    transform: translateY(-5px);
+    background: #ff0000;
+    color: white;
+} 
+.login-register-text {
+    text-align: center;
+}
+.login-register-text a {
+    color: #111;
+    font-weight: 900;
+}
+.login-register-text a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.6;
+    color: yellow;
+}
+@media (max-width: 430px) {
+    .main {
+        width: 600px;
+    }
+}  
+/* index.php & register.php pages style done */
+
+/* branch.php style start */
+.branch {
+    background-color: #fff;
+}
+.main-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.item img {
+    width: 100%;
+    height: 300px;
+}
+.item p {
+    text-align: center;
+    background-color: #df3500;
+    color: #fff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+.item a:hover p:hover{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+@media only screen and (max-width:700px){
+    .main-item {
+        grid-template-columns: 1fr;
+    }
+}
+/* branch.php style is done */
+/* style for echo part of */
+/* .echo-correct {
+
+} */
+.echo-wrong {
+    background-color: red;
+    color: green;
+    font-size: 20px;
+}
